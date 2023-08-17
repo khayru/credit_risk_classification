@@ -21,16 +21,19 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
+    
+1- according to the machine learning model, I got the results 
+2- The accuracy score for this model is -------
+3-and the precision score for this model is 
 
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
+  
+Based on the precision or I think this will be a good  model to put into practice because the score is 0.9 accuracy is a good score.
 If you do not recommend any of the models, please justify your reasoning.
+I don't think this model can be predicted for the model because the accuracy score of 80%that means every  100 people get 20 mis labels this creates a lot of lost
+test scores the one very summary of the training score.
