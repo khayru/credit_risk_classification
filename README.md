@@ -24,7 +24,9 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     
 1- according to the machine learning model, I got the results 
 2- The accuracy score for this model is -------
-3-and the precision score for this model is # Print the classification report for the model
+
+* The precision score for this model is
+*   the classification report for the model
 logistic_classreport = classification_report(y_test, prediction_testing)
 print(logistic_classreport)
               precision    recall  f1-score   support
