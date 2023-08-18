@@ -19,6 +19,23 @@ y.value_counts()
 Name: loan_status, dtype: int64
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 the method uses LogisticRegression
+Step 3: Evaluate the model’s performance by doing the following:
+Calculate the accuracy score of the model.
+
+Generate a confusion matrix.
+
+Print the classification report.
+
+# Print the balanced_accuracy score of the model
+logistic_score = balanced_accuracy_score(y_test, prediction_testing)
+print(logistic_score)
+0.9442676901753825
+# Generate a confusion matrix for the model
+logistic_matrix = confusion_matrix(y_test, prediction_testing)
+print(logistic_matrix)
+[[18679    80]
+ [   67   558]]
+
 ## Results
 
 
