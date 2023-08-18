@@ -12,10 +12,15 @@ In this section, describe the analysis you completed for the machine learning mo
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * 
 * Describe the stages of the machine learning process you went through as part of this analysis.
-* 
+* # Check the balance of our target values
+y.value_counts()
+0    75036
+1     2500
+Name: loan_status, dtype: int64
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 the method uses LogisticRegression
 ## Results
+
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
