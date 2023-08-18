@@ -9,7 +9,10 @@ In this section, describe the analysis you completed for the machine learning mo
 * Explain what financial information the data was on, and what you needed to predict.
   For the dataset landing_csv, I created a logistic regression model with Resampled data. oversample  model generated the accuracy of a 100% score
   for(low-rick)loans.
-  
+# Check the balance of our target values
+y.value_counts()
+
+
   ## Results
 * Describe the stages of the machine learning process you went through as part of this analysis.
  # Check the balance of our target values
@@ -26,8 +29,7 @@ print(predicted_score)
 # Generate a confusion matrix for the model
 predicted_matrix = confusion_matrix(y_test, predictions)
 print(predicted_matrix)
-[[18668    91]
- [    2   623]]
+
 # Print the classification report for the model
 predicted_classreport = classification_report(y_test, predictions)
 print(predicted_classreport)
