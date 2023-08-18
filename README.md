@@ -4,17 +4,17 @@
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
 * Explain the purpose of the analysis.
-  The purpose of this analysis is to create and evaluate the accuracy of  the data model that produces
+  The purpose of this analysis is to predict users will be at high-risk for loans.
   
 * Explain what financial information the data was on, and what you needed to predict.
-  The data set information is about loan-healthy (low-rick) or non-healthy(high-risk)
+  The dataset landing_csv    loan-healthy (low-rick) or non-healthy(high-risk)
   
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * 
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * 
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
-
+the method uses LogisticRegression
 ## Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
